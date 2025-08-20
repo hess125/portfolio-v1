@@ -56,9 +56,14 @@ body {
 }
 
 .main-title a {
-  color: #dddddd;
-  transition: color 0.2s ease;
-}
+  color: #dddddd; 
+  transition: color 0.2s ease; }
+
+.main-title a:visited,
+.main-title a:link,
+.main-title a:active,
+.main-title a:hover {
+  color: #dddddd;  }
 
 .main-title a:hover {
   color: var(--accent);
