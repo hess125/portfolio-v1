@@ -56,13 +56,12 @@ body {
 }
 
 .main-title a {
-  color: var(--accent);
-  text-decoration: underline;
+  color: #dddddd;
   transition: color 0.2s ease;
 }
 
 .main-title a:hover {
-  color: var(--foreground);
+  color: var(--accent);
 }
 
 .connect-text {
